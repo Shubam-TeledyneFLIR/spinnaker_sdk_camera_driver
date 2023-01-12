@@ -102,10 +102,12 @@ Mat acquisition::Camera::grab_mat_frame() {
 Mat acquisition::Camera::convert_to_mat(ImagePtr pImage) {
 
     ImagePtr convertedImage;
+    ImageProcessor processor;
     if (COLOR_)
-        convertedImage = pImage->Convert(PixelFormat_BGR8); //, NEAREST_NEIGHBOR);
+        convertedImage = processor.Convert(pImage, PixelFormat_BGR8 );
     else
-		convertedImage = pImage->Convert(PixelFormat_Mono8); //, NEAREST_NEIGHBOR);
+        convertedImage = processor.Convert(pImage, PixelFormat_Mono8 ); //, NEAREST_NEIGHBOR);
+
     unsigned int XPadding = convertedImage->GetXPadding();
     unsigned int YPadding = convertedImage->GetYPadding();
     unsigned int rowsize = convertedImage->GetWidth();
