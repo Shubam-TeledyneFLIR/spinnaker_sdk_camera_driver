@@ -17,7 +17,11 @@ These are the ros drivers for running the Pt Grey (FLIR) cameras that use the Sp
 | 2.2.0.48  | AMD64        | :heavy_minus_sign:                     | :heavy_check_mark:                    | :white_check_mark:                  |
 | 2.2.0.48  | ARM64        | :heavy_minus_sign:                     |                                       |                                     |
 | 2.3.0.77  | AMD64        | :heavy_minus_sign:                     |                                       | :x:                                 |
-| 2.3.0.77  | ARM64        | :heavy_minus_sign:                     | :x:                                   |                                     |
+| 2.3.0.77  | ARM64        | :heavy_minus_sign:                     |                                       |                                     |
+| 2.7.0.128 | AMD64        | :heavy_minus_sign:                     |                                       | :heavy_check_mark:                                  |
+| 2.7.0.128 | ARM64        | :heavy_minus_sign:                     |                                       |                                     |
+| 3.0.0.118 | AMD64        | :heavy_minus_sign:                     |                                       | :heavy_check_mark:                                  |
+| 3.0.0.118 | ARM64        | :heavy_minus_sign:                     |                                       |                                     |
 
 :heavy_check_mark: Tested 
 :heavy_minus_sign: Not Applicable 
